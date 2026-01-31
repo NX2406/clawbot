@@ -36,9 +36,9 @@
 
 ## 快速开始
 
-### 方式 A：直接拉取仓库运行
+## 使用方法 (Root 用户)
+
+直接在终端执行以下命令即可：
+
 ```bash
-git clone <你的仓库地址> clawbot
-cd clawbot
-chmod +x install.sh
-./install.sh
+bash <(curl -sL https://raw.githubusercontent.com/NX2406/clawbot/refs/heads/main/install.sh)
